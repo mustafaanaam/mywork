@@ -1,20 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: black;
   color: yellow;
+  font-family: "Antic Slab", serif;
+  
 }
 
-p {
-  border: 3px green;
-  color: red;
-}
+header {background-color: saddlebrown;
+  word-spacing: 5px;
+  color: white
+       ;}
 
 h1,
 h2 {
   text-align: center;
-  font-family: "gloria hallelujah ", Arial, Helvetica, sans-serif;
+  font-family: "gloria hallelujah", cursive
+  color: wheat;
+  text-decoration: underline;
 }
 
 form [type="text"],
 [type="email"] {
   padding: 7px;
+}
+
+.introduction {
+  font-size: 25px;
+  font-family: Georgia, serif;
+  text-align: center;
+  color:lime;
+}
+.profile {
+  background-color: gray;
+  color: purple;
+}
+
+.profile-descreiption {
+  color: pink;
 }
