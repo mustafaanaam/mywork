@@ -12,29 +12,37 @@ body {
 }
 
 header {background-color: green;
-  word-spacing: 5px;
+  word-spacing: .05rem;
   color: orange;
   
        ;}
 
-
+p{
+  padding: 0.4rem;
+}
 
 h2, h1 {
   text-align: center;
-  font-family: "gloria hallelujah", cursive
+  font-family: "Times New Roman", Times, serif
   color: wheat;
   text-decoration: underline;
   width: 100%;
   display: inline-block
 }
 
+h1 {
+  font-size: 2.2rem; 
+  font-family: "Times New Roman", Times, serif
+  
+}
+
 form [type="text"],
 [type="email"] {
-  padding: 7px;
+  padding: .25rem;
 }
 
 .introduction {
-  font-size: 25px;
+  font-size: 1rem;
   font-family: Georgia, serif;
   text-align: center;
   color:lime;
@@ -49,7 +57,7 @@ form [type="text"],
 }
 
 ul,ol {
-  padding-left: 25px;
+  padding-left: 1rem;
 }
 ul {
   list-style-type: square;
@@ -60,29 +68,28 @@ ol{
 }
 
 .header-nav-menu{
- margin: 0;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
+  justify-content: flex-end
+  
+  ;
 }
 
 .header-menu-item{
 
-    display: block;
-    color: white;
-    text-align: margin-right;
-    padding: 16px ;
-    text-decoration: none;
-    margin-right: 25px
-    ;
+ 
+  margin-right: 1.5rem
+  ;
   }
   
 
 .logo{
   text-decoration: none;
   color: white;
-  margin-left: 25px;
-  margin: 25px 0px 25px 25px ;
+  margin-left: 1.25rem;
+  margin: 1 rem 0px 1rem 1rem ;
   font-weight: bold;
 
   
@@ -103,4 +110,4 @@ ol{
 }
 
 
-
+}
