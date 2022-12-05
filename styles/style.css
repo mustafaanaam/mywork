@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+html {font-size: 25px;}
 
 body {
   background-color: black;
@@ -10,17 +11,21 @@ body {
   
 }
 
-header {background-color: saddlebrown;
+header {background-color: green;
   word-spacing: 5px;
-  color: white
+  color: orange;
+  
        ;}
 
-h1,
-h2 {
+
+
+h2, h1 {
   text-align: center;
   font-family: "gloria hallelujah", cursive
   color: wheat;
   text-decoration: underline;
+  width: 100%;
+  display: inline-block
 }
 
 form [type="text"],
@@ -42,3 +47,60 @@ form [type="text"],
 .profile-descreiption {
   color: pink;
 }
+
+ul,ol {
+  padding-left: 25px;
+}
+ul {
+  list-style-type: square;
+}
+
+ol{
+  list-style-type:decimal;
+}
+
+.header-nav-menu{
+ margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.header-menu-item{
+
+    display: block;
+    color: white;
+    text-align: margin-right;
+    padding: 16px ;
+    text-decoration: none;
+    margin-right: 25px
+    ;
+  }
+  
+
+.logo{
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  margin: 25px 0px 25px 25px ;
+  font-weight: bold;
+
+  
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
