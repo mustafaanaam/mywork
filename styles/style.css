@@ -8,6 +8,8 @@ body {
   background-color: black;
   color: yellow;
   font-family: "Antic Slab", serif;
+  display: flex;
+  flex-direction: column;
   
 }
 
@@ -115,6 +117,8 @@ ol{
   background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  margin: 0;
 
   }
 
@@ -124,7 +128,8 @@ ol{
   margin-right: auto;
   height:400px ;
   width: 400px;
-margin-bottom: 25px;}
+margin-bottom: 25px;
+border-radius: 30px}
 
 
   .multi-col-container { 
@@ -138,6 +143,8 @@ margin-bottom: 25px;}
     width: calc(100%/3-20px);
     margin: 20px;
     border: 5px solid darkgreen;
+    text-align: center
+    ;
   
   }
 
@@ -161,3 +168,15 @@ margin-bottom: 25px;}
   background-color: darkgreen;
  }
 
+.bg-light > .shiled {
+  margin: 50px;
+}
+
+.shiled {
+  margin: 0 50px;
+  background-color: rgba(255, 255, 255, 0.0)
+}
+
+.col-item-container h3 {
+  margin: 30px auto;
+}
