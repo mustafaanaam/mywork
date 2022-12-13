@@ -40,8 +40,19 @@ h1 {
 }
 
 form [type="text"],
-[type="email"] {
-  padding: .25rem;
+[type="email"] [type=bottom]{
+  padding: .25;
+  padding-right: 100px
+  ;
+}
+
+form [name="fname"], [name="lname"] , [name="Email"] ,[name="send"]{
+  width: auto;
+}
+
+form [value="send"] {
+  margin-bottom: 40px;
+  width: 50px;
 }
 
 .introduction {
@@ -197,4 +208,19 @@ border-radius: 30px}
 
 .col-item-container h3 {
   margin: 30px auto;
+  
+}
+
+input, textarea {
+  width: 50%;
+  margin: 10px;
+  padding: 12px 20px ;
+  
+  
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+
 }
