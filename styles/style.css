@@ -109,8 +109,16 @@ ol{
 }
 
 .bg-dark{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
-  background-color: darkgreen;}
+  background-color: darkgreen;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  }
 
 .bg-light{
   background-color: darkolivegreen;
@@ -119,6 +127,7 @@ ol{
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  padding: 5px;
 
   }
 
@@ -136,16 +145,25 @@ border-radius: 30px}
     display: flex;
     margin-top: 25px;
     margin-bottom: 25px;
+    align-items: center;
 
   }
 
   .col-item-container{
     width: calc(100%/3-20px);
     margin: 20px;
-    border: 5px solid darkgreen;
+    border: 5px solid whitesmoke;
     text-align: center
     ;
   
+  }
+
+  .col-item-container.img-thumbnail {
+    width: 80%;
+    display: inline-block;
+    background-image: url(https://topbloc.com/wp-content/uploads/2022/01/topbloc-officelife-b14a2236fac91b43de5b0f3c298162d1-xlarge.jpg);
+    background-position: center center;
+    background-size: cover;
   }
 
   .myrecentwork-items {
